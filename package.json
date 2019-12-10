@@ -1,0 +1,45 @@
+{
+  "name": "audio-storage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/audio-storage.js",
+  "module": "lib/audio-storage.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS-Hao/noawait.git"
+  },
+  "keywords": [
+    "await",
+    "async",
+    "proxy",
+    "queue",
+    "function"
+  ],
+  "author": "JS-Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS-Hao/noawait/issues"
+  },
+  "homepage": "https://github.com/JS-Hao/noawait#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "localforage": "^1.7.3",
+    "lodash": "^4.17.15",
+    "lzutf8": "^0.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.7.1",
+    "@types/lodash": "^4.14.149",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2"
+  }
+}
