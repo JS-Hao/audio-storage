@@ -6,7 +6,8 @@
   "module": "lib/audio-storage.es.js",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -c --watch"
+    "watch": "rollup -c --watch",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
